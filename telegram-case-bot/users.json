@@ -1,0 +1,80 @@
+{
+    "5140375619": {
+        "reg_date": "22.06.2025 18:21",
+        "personal_code": "1KJZYAWK",
+        "promocodes": [],
+        "inactive_promocodes": [],
+        "referrals": [],
+        "is_admin": true,
+        "language": "ru",
+        "chat_region": "RU",
+        "language_set": true,
+        "admin_time": "22.06.2025 18:26"
+    },
+    "7795511141": {
+        "reg_date": "22.06.2025 18:26",
+        "personal_code": "8W3D13XI",
+        "promocodes": [
+            "31KIXN8FH1"
+        ],
+        "inactive_promocodes": [],
+        "referrals": [],
+        "is_admin": true,
+        "language": "ru",
+        "chat_region": "RU",
+        "language_set": true,
+        "admin_time": "22.06.2025 18:27"
+    },
+    "7592814596": {
+        "reg_date": "22.06.2025 18:31",
+        "personal_code": "NRDWZF1H",
+        "promocodes": [],
+        "inactive_promocodes": [],
+        "referrals": [],
+        "is_admin": false,
+        "language": "ru",
+        "chat_region": "RU",
+        "language_set": true,
+        "last_free_skin": "22.06.2025 18:31"
+    },
+    "5553419722": {
+        "reg_date": "22.06.2025 18:32",
+        "personal_code": "KY7GK1EO",
+        "promocodes": [],
+        "inactive_promocodes": [],
+        "referrals": [],
+        "is_admin": false,
+        "language": "ru",
+        "chat_region": "RU",
+        "language_set": true,
+        "last_free_skin": "22.06.2025 18:32"
+    },
+    "7567078783": {
+        "reg_date": "22.06.2025 18:38",
+        "personal_code": "GWDHASWX",
+        "promocodes": [
+            "PWOFP1SC6X"
+        ],
+        "inactive_promocodes": [],
+        "referrals": [
+            "974879580"
+        ],
+        "is_admin": true,
+        "language": "ru",
+        "chat_region": "RU",
+        "language_set": true,
+        "last_free_skin": "22.06.2025 18:40",
+        "admin_time": "22.06.2025 18:41"
+    },
+    "974879580": {
+        "reg_date": "22.06.2025 18:58",
+        "personal_code": "AJRIHS42",
+        "promocodes": [],
+        "inactive_promocodes": [],
+        "referrals": [],
+        "is_admin": false,
+        "language": "ru",
+        "chat_region": "RU",
+        "language_set": true
+    }
+}

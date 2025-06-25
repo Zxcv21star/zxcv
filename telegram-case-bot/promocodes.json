@@ -1,0 +1,71 @@
+{
+    "9H3RWPLPYP": {
+        "code": "9H3RWPLPYP",
+        "skin_name": "+",
+        "skin_id": "Uh36",
+        "max_activations": 10,
+        "used_by": [
+            "7795511141",
+            "974879580",
+            "7567078783"
+        ],
+        "created": "20.06.2025 14:47",
+        "allow_multiple": false
+    },
+    "7A01M5XMKJ": {
+        "skin_name": "Gg",
+        "skin_id": "Uh36",
+        "max_activations": 15,
+        "allow_multiple": true,
+        "created_by": "7795511141",
+        "created_at": "22.06.2025 13:27",
+        "used_by": [
+            "7795511141",
+            "7567078783",
+            "7567078783",
+            "7567078783",
+            "7795511141"
+        ]
+    },
+    "QFB8P396Y1": {
+        "skin_name": "М",
+        "skin_id": "IC$IC0$IC1$IC2$IC3",
+        "max_activations": 3,
+        "allow_multiple": false,
+        "created_by": "7567078783",
+        "created_at": "22.06.2025 14:22",
+        "used_by": [
+            "7567078783"
+        ]
+    },
+    "31KIXN8FH1": {
+        "skin_name": "*",
+        "skin_id": "Uh36",
+        "max_activations": 10,
+        "allow_multiple": true,
+        "created_by": "7795511141",
+        "created_at": "22.06.2025 15:13",
+        "used_by": [
+            "7795511141",
+            "7795511141"
+        ]
+    },
+    "F32LEKJFIL": {
+        "skin_name": "₽",
+        "skin_id": "Uh36",
+        "max_activations": 10,
+        "allow_multiple": true,
+        "created_by": "7795511141",
+        "created_at": "22.06.2025 17:58",
+        "used_by": []
+    },
+    "PWOFP1SC6X": {
+        "skin_name": "#",
+        "skin_id": "Uh36",
+        "max_activations": 10,
+        "allow_multiple": true,
+        "created_by": "7795511141",
+        "created_at": "22.06.2025 18:37",
+        "used_by": []
+    }
+}

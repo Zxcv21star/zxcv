@@ -1,0 +1,204 @@
+{
+    "users": {
+        "5140375619": {
+            "reg_date": "22.06.2025 18:21",
+            "personal_code": "1KJZYAWK",
+            "promocodes": [],
+            "inactive_promocodes": [],
+            "referrals": [],
+            "is_admin": true,
+            "language": "ru",
+            "chat_region": "RU",
+            "language_set": true,
+            "admin_time": "22.06.2025 19:33"
+        },
+        "7795511141": {
+            "reg_date": "22.06.2025 18:26",
+            "personal_code": "8W3D13XI",
+            "promocodes": [
+                "31KIXN8FH1"
+            ],
+            "inactive_promocodes": [],
+            "referrals": [],
+            "is_admin": true,
+            "language": "ru",
+            "chat_region": "RU",
+            "language_set": true,
+            "admin_time": "22.06.2025 18:27"
+        },
+        "7592814596": {
+            "reg_date": "22.06.2025 18:31",
+            "personal_code": "NRDWZF1H",
+            "promocodes": [],
+            "inactive_promocodes": [],
+            "referrals": [],
+            "is_admin": false,
+            "language": "ru",
+            "chat_region": "RU",
+            "language_set": true,
+            "last_free_skin": "22.06.2025 18:31"
+        },
+        "5553419722": {
+            "reg_date": "22.06.2025 18:32",
+            "personal_code": "KY7GK1EO",
+            "promocodes": [],
+            "inactive_promocodes": [],
+            "referrals": [],
+            "is_admin": false,
+            "language": "ru",
+            "chat_region": "RU",
+            "language_set": true,
+            "last_free_skin": "22.06.2025 18:32"
+        },
+        "7567078783": {
+            "reg_date": "22.06.2025 18:38",
+            "personal_code": "GWDHASWX",
+            "promocodes": [
+                "PWOFP1SC6X"
+            ],
+            "inactive_promocodes": [],
+            "referrals": [
+                "974879580"
+            ],
+            "is_admin": true,
+            "language": "ru",
+            "chat_region": "RU",
+            "language_set": true,
+            "last_free_skin": "22.06.2025 18:40",
+            "admin_time": "22.06.2025 18:41"
+        },
+        "974879580": {
+            "reg_date": "22.06.2025 18:58",
+            "personal_code": "AJRIHS42",
+            "promocodes": [],
+            "inactive_promocodes": [],
+            "referrals": [],
+            "is_admin": false,
+            "language": "ru",
+            "chat_region": "RU",
+            "language_set": true
+        },
+        "5455853201": {
+            "reg_date": "22.06.2025 20:49",
+            "personal_code": "W8VDI9JI",
+            "promocodes": [],
+            "inactive_promocodes": [],
+            "referrals": [],
+            "is_admin": false,
+            "language": "ru",
+            "chat_region": "RU",
+            "language_set": true
+        },
+        "6020184574": {
+            "reg_date": "22.06.2025 22:10",
+            "personal_code": "5E5Y2A6P",
+            "promocodes": [],
+            "inactive_promocodes": [],
+            "referrals": [],
+            "is_admin": false,
+            "language": "ru",
+            "chat_region": "DEV",
+            "language_set": true
+        }
+    },
+    "promocodes": {
+        "9H3RWPLPYP": {
+            "code": "9H3RWPLPYP",
+            "skin_name": "+",
+            "skin_id": "Uh36",
+            "max_activations": 10,
+            "used_by": [
+                "7795511141",
+                "974879580",
+                "7567078783"
+            ],
+            "created": "20.06.2025 14:47",
+            "allow_multiple": false
+        },
+        "7A01M5XMKJ": {
+            "skin_name": "Gg",
+            "skin_id": "Uh36",
+            "max_activations": 15,
+            "allow_multiple": true,
+            "created_by": "7795511141",
+            "created_at": "22.06.2025 13:27",
+            "used_by": [
+                "7795511141",
+                "7567078783",
+                "7567078783",
+                "7567078783",
+                "7795511141"
+            ]
+        },
+        "QFB8P396Y1": {
+            "skin_name": "М",
+            "skin_id": "IC$IC0$IC1$IC2$IC3",
+            "max_activations": 3,
+            "allow_multiple": false,
+            "created_by": "7567078783",
+            "created_at": "22.06.2025 14:22",
+            "used_by": [
+                "7567078783"
+            ]
+        },
+        "31KIXN8FH1": {
+            "skin_name": "*",
+            "skin_id": "Uh36",
+            "max_activations": 10,
+            "allow_multiple": true,
+            "created_by": "7795511141",
+            "created_at": "22.06.2025 15:13",
+            "used_by": [
+                "7795511141",
+                "7795511141"
+            ]
+        },
+        "F32LEKJFIL": {
+            "skin_name": "₽",
+            "skin_id": "Uh36",
+            "max_activations": 10,
+            "allow_multiple": true,
+            "created_by": "7795511141",
+            "created_at": "22.06.2025 17:58",
+            "used_by": []
+        },
+        "PWOFP1SC6X": {
+            "skin_name": "#",
+            "skin_id": "Uh36",
+            "max_activations": 10,
+            "allow_multiple": true,
+            "created_by": "7795511141",
+            "created_at": "22.06.2025 18:37",
+            "used_by": []
+        }
+    },
+    "skins": {
+        "fu46": {
+            "skin_name": "Сыр",
+            "added_by": "7795511141",
+            "added_at": "22.06.2025 14:41"
+        },
+        "Отмена": {
+            "skin_name": "Отмена",
+            "added_by": "7567078783",
+            "added_at": "22.06.2025 16:24"
+        },
+        "Uh36": {
+            "skin_name": "л",
+            "added_by": "7795511141",
+            "added_at": "22.06.2025 16:40"
+        }
+    },
+    "referral_rewards": [
+        {
+            "skin_name": "Jk",
+            "skin_id": "Uh36",
+            "added_at": "22.06.2025 19:34"
+        },
+        {
+            "skin_name": "Нож",
+            "skin_id": "fp46",
+            "added_at": "22.06.2025 23:55"
+        }
+    ]
+}

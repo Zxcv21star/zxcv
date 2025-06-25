@@ -1,0 +1,316 @@
+/* Основные стили */
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #1a1a1a;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+.container {
+  max-width: 100%;
+  height: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.hidden {
+  display: none !important;
+}
+
+h1,
+h2,
+h3 {
+  color: #ffd700;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Кнопки */
+.tg-button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 10px 0;
+  width: 100%;
+  max-width: 300px;
+  transition: all 0.3s;
+}
+
+.tg-button:hover {
+  background-color: #45a049;
+  transform: scale(1.05);
+}
+
+/* Форма авторизации */
+.form-group {
+  margin-bottom: 15px;
+  width: 100%;
+  max-width: 300px;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #333;
+  border-radius: 5px;
+  box-sizing: border-box;
+  background-color: #333;
+  color: white;
+  font-size: 16px;
+}
+
+input::placeholder {
+  color: #aaa;
+}
+
+/* Сетка кейсов */
+.cases-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
+  width: 100%;
+  max-width: 600px;
+  margin: 20px 0;
+}
+
+.case-item {
+  background: #2a2a2a;
+  border-radius: 10px;
+  padding: 15px;
+  text-align: center;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.case-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+}
+
+.case-item img {
+  width: 100%;
+  max-width: 120px;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.view-items-btn {
+  background: #333;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: all 0.3s;
+}
+
+.view-items-btn:hover {
+  background: #444;
+}
+
+/* Рулетка */
+.roulette-viewport {
+  width: 100%;
+  max-width: 500px;
+  height: 120px;
+  overflow: hidden;
+  margin: 30px 0;
+  position: relative;
+  border: 2px solid #444;
+  border-radius: 10px;
+  background: #222;
+}
+
+.roulette-container {
+  display: flex;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transition: transform 0.1s linear;
+}
+
+.roulette-item {
+  flex: 0 0 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 10px;
+}
+
+.roulette-item img {
+  max-width: 100px;
+  max-height: 100px;
+  object-fit: contain;
+}
+
+/* Приз */
+.prize-item {
+  text-align: center;
+  margin: 20px 0;
+  padding: 20px;
+  background: rgba(42, 42, 42, 0.7);
+  border-radius: 10px;
+  max-width: 300px;
+}
+
+.prize-item img {
+  max-width: 200px;
+  max-height: 200px;
+  margin-bottom: 15px;
+}
+
+/* Редкости */
+.common {
+  color: #b0b0b0;
+}
+.rare {
+  color: #4caf50;
+}
+.epic {
+  color: #9c27b0;
+}
+.legendary {
+  color: #ff9800;
+}
+
+/* Модальное окно */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.9);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.modal-content {
+  background: #2a2a2a;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 800px;
+  width: 100%;
+  max-height: 80vh;
+  overflow-y: auto;
+  position: relative;
+}
+
+.close-modal {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.items-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.item-card {
+  background: #333;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.item-card img {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  margin-bottom: 5px;
+}
+
+.item-card p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+/* Инвентарь */
+.inventory-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  gap: 15px;
+  width: 100%;
+  max-width: 800px;
+  margin: 20px 0;
+}
+
+.inventory-item {
+  background: #333;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.inventory-item img {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+}
+
+/* Анимации */
+@keyframes spin {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-1000px);
+  }
+}
+
+.winner-flash {
+  animation: flash 0.5s 3;
+}
+
+@keyframes flash {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.3;
+  }
+  100% {
+    opacity: 1;
+  }
+}

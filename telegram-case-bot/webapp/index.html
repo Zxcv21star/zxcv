@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Кейсы CO от ZXCV</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Основной контейнер -->
+    <div class="container">
+      <!-- Экран авторизации -->
+      <div id="auth-screen" class="screen">
+        <h1>Добро пожаловать!</h1>
+        <div class="form-group">
+          <input
+            type="text"
+            id="username"
+            placeholder="Придумайте никнейм"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <input type="email" id="email" placeholder="Ваш email" required />
+        </div>
+        <div class="form-group">
+          <input
+            type="password"
+            id="password"
+            placeholder="Придумайте пароль"
+            required
+          />
+        </div>
+        <button id="register-btn" class="tg-button">
+          Начать открывать кейсы
+        </button>
+      </div>
+
+      <!-- Экран выбора кейсов -->
+      <div id="cases-screen" class="screen hidden">
+        <h1>Выберите кейс</h1>
+        <div class="cases-grid">
+          <div class="case-item" data-case="knife">
+            <img
+              src="webapp/images/1ce35b33-ac0c-4f6e-8cc6-1d224670f638.jpeg"
+              alt="Оружейный кейс"
+            />
+            <h3>Ножевой кейс</h3>
+            <button class="view-items-btn">Посмотреть предметы</button>
+          </div>
+          <div class="case-item" data-case="weapon">
+            <img
+              src="webapp/images/photo_5395779186926415285_y.jpg"
+              alt="Кейс от zxcv"
+            />
+            <h3>Оружейный кейс</h3>
+            <button class="view-items-btn">Посмотреть предметы</button>
+          </div>
+        </div>
+        <button id="inventory-btn" class="tg-button">Мой инвентарь</button>
+      </div>
+
+      <!-- Экран открытия кейса -->
+      <div id="open-case-screen" class="screen hidden">
+        <h1 id="case-title">Открытие кейса</h1>
+        <div class="case-preview">
+          <img id="case-image" src="" alt="Кейс" />
+        </div>
+        <div class="roulette-viewport">
+          <div class="roulette-container"></div>
+        </div>
+        <div class="open-options">
+          <button id="open-fast-btn" class="tg-button">
+            Быстро открыть (10₽)
+          </button>
+          <button id="open-slow-btn" class="tg-button">
+            Эффектное открытие (20₽)
+          </button>
+        </div>
+      </div>
+
+      <!-- Экран результата -->
+      <div id="result-screen" class="screen hidden">
+        <h1>Поздравляем!</h1>
+        <div class="prize-item">
+          <img id="prize-image" src="" alt="Приз" />
+          <h3 id="prize-name">Название предмета</h3>
+          <p id="prize-rarity"></p>
+        </div>
+        <p>Предмет сохранён в ваш инвентарь</p>
+        <button id="back-to-cases-btn" class="tg-button">
+          Открыть ещё кейс
+        </button>
+        <button id="view-inventory-btn" class="tg-button">
+          Посмотреть инвентарь
+        </button>
+      </div>
+
+      <!-- Экран инвентаря -->
+      <div id="inventory-screen" class="screen hidden">
+        <h1>Мой инвентарь</h1>
+        <div class="inventory-grid"></div>
+        <button id="back-from-inventory-btn" class="tg-button">
+          Назад к кейсам
+        </button>
+      </div>
+    </div>
+
+    <!-- Модальное окно с предметами -->
+    <div id="items-modal" class="modal hidden">
+      <div class="modal-content">
+        <h2 id="modal-title"></h2>
+        <button class="close-modal">&times;</button>
+        <div class="items-container"></div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

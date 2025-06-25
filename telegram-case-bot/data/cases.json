@@ -1,0 +1,17 @@
+{
+  "basic_case": {
+    "price": 100,
+    "items": [
+      {
+        "name": "Обычный нож",
+        "rarity": 0.5,
+        "image": "knife.png"
+      },
+      {
+        "name": "Редкий пистолет",
+        "rarity": 0.3,
+        "image": "pistol.png"
+      }
+    ]
+  }
+}
